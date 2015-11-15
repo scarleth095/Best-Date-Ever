@@ -18,7 +18,9 @@ a{
 	text-decoration: none !important;
 }
 
-
+.top{
+	padding-top: 25%;
+}
 
 
 }
@@ -83,9 +85,9 @@ h2 {
 
 
 #q1{
-	
+
 	height: 200px;
-	width: 500px;
+	width: 400px;
 	border-radius: 25%;
 	background-color: #ff8080;
 }
