@@ -1,7 +1,7 @@
 function fadeHeart(){
-	$(".rest-link").hide();
-	$(".attraction-link").hide();
-	$(".hotel-link").hide();
+	$("#restaurants").hide();
+	$("#attractions").hide();
+	$("#other").hide();
 	$("#pad").hide();
 	$("#here").hide();
 	$("#data").hide();
@@ -19,22 +19,22 @@ function fadeHeart(){
 
 
 	$("#q1").click(function(){
-		$(".attraction-link").hide();
-		$(".hotel-link").hide();
-		$(".rest-link").show();
+		$("#attractions").hide();
+		$("#other").hide();
+		$("#restaurants").show();
 		$("#data").show();
 	});
 	$("#q2").click(function(){
-		$(".rest-link").hide();
-		$(".hotel-link").hide();
-		$(".attraction-link").show();
+		$("#restaurants").hide();
+		$("#other").hide();
+		$("#attractions").show();
 		$("#data").show();
 
 	});
 	$("#q3").click(function(){
-		$(".rest-link").hide();
-		$(".attraction-link").hide();
-		$(".hotel-link").show();
+		$("#restaurants").hide();
+		$("#attractions").hide();
+		$("#other").show();
 		$("#data").show();
 	});
 
