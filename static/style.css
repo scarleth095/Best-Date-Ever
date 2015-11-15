@@ -16,17 +16,21 @@ body{
 }
 a{
 	text-decoration: none !important;
+	color: white;
+	line-height: 30px;
+	font-size: 20px;
+
 }
 ul:link{
 	text-decoration: none !important;
-	
+	font-size: 20px;
 
 
 }
 ul{
 	text-decoration: none !important;
 	list-style-type: none !important;
-	font-size: 10px;
+	font-size: 20px;
 	line-height: 30px;
 	color: white;
 	
