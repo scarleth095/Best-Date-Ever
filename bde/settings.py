@@ -25,7 +25,7 @@ SECRET_KEY = 'sss!qy2#)wdzbq_%i=*&du4zmi$t&g2%pcja)o+(%15a!n_rxv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.bestdatenite.com']
 
 
 # Application definition
@@ -38,6 +38,12 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
+)
+FACEBOOK_APP_ID='App ID here'
+FACEBOOK_API_SECRET='App Secret here'
+
+AUTHENTICATION_BACKENDS = (
+    'social_auth.backends.facebook.FacebookBackend',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -85,14 +91,15 @@ DATABASES = {
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
+DATE_FORMAT ="Y-m-d"
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/New_York'
 
 USE_I18N = True
 
-USE_L10N = True
+USE_L10N = False
 
 USE_TZ = True
 
