@@ -3,14 +3,14 @@ function fadeHeart(){
 	$("#movies").hide();
 	$("#other").hide();
 	$("#pad").hide();
-	$(".here").hide();
+	$("#here").hide();
 	
 
 	$("#start").click(function(){
 	    $("#fade1").fadeOut(2900);
 	    $("#start").fadeOut(2900,function(){
 	    	$("#pad").show();
-	    	$(".here").fadeIn();
+	    	$("#here").fadeIn();
 	    	
 
     	});
