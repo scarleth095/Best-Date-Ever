@@ -13,6 +13,8 @@ function fadeHeart(){
 	    $("#start").fadeOut(2900,function(){
 	    	$("#pad").show();
 	    	$("#q1").fadeIn();
+	    	$("#q2").fadeIn();
+			$("#q3").fadeIn();
 
     	});
 	});
