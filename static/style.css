@@ -32,9 +32,9 @@ a{
 }
 
 .center-text{
-	padding-top: 90px;
+	margin-top-top: 40px;
 	font-family: 'Pacifico', cursive;
-	padding-bottom: 90px;
+	margin-bottom-bottom: 40px;
 
 }
 
@@ -91,8 +91,8 @@ h2 {
 
 #q1{
 	margin-top: 50px;
-	height: 200px;
-	width: 300px;
+	height: 100px;
+	width: 400px;
 	border-radius: 30%;
 	background-color: #ff8080;
 }
