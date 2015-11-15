@@ -1,24 +1,33 @@
 $(document).ready(function() {
 	fadeHeart();
-	var lon ,lat;
+	
 	if(navigator.geolocation){
 		navigator.geolocation.getCurrentPosition(
 			function(pos){
-				lat=pos.coords.lattiude;
-				lon=pos.coords.longitude;
+				var lat=pos.coords.latitude;
+				var lon=pos.coords.longitude;
+				loadData(lat,lon);
+
 				
 			},
 			function(error){
 				console.log("failed", error);
+				loadData(null,null);
 			}
 		);
 	}
 	else
 	{
 		console.log("Couldn't use geolocation");
+		loadData(null,null);
 	}
 
-    loadRestaurants(5,lat,lon);
+    
+});
+
+function loadData(lat,lon){
+	loadRestaurants(5,lat,lon);
     loadAttractions(5,lat,lon);
     loadHotels(5,lat,lon);
+
 });

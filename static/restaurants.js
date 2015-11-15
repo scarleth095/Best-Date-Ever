@@ -1,5 +1,13 @@
 function loadRestaurants(numberRestaurants,lat,lon){
-    var url = 'http://api.tripadvisor.com/api/partner/2.0/map/'+lat+','+lon+'/attractions?key=df9ce229-07ac-4c58-8af3-619317decc5b&limit=' + numberRestaurants ;
+    var url;
+    if (lat ==null || lon==null){
+     url = 'https://api.tripadvisor.com/api/partner/2.0/location/60745/restaurants?key=df9ce229-07ac-4c58-8af3-619317decc5b&limit=' + numberRestaurants ;
+
+    }
+
+   else{ 
+     url = 'http://api.tripadvisor.com/api/partner/2.0/map/'+lat+','+lon+'/restaurants?key=df9ce229-07ac-4c58-8af3-619317decc5b&limit=' + numberRestaurants ;
+    }
     $.ajax({
         url: url,
         dataType: 'json'
