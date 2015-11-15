@@ -1,4 +1,4 @@
-function loadHotels(numberRestaurants){
+function loadHotels(numberRestaurants,lat,lon){
     var url = 'http://api.tripadvisor.com/api/partner/2.0/map/'+lat+','+lon+'/attractions?key=df9ce229-07ac-4c58-8af3-619317decc5b&limit=' + numberRestaurants ;
     $.ajax({
         url: url,
