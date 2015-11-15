@@ -16,14 +16,19 @@ body{
 }
 a{
 	text-decoration: none !important;
-	color: white;
-	line-height: 30px;
+	list-style-type: none !important;
 	font-size: 20px;
+	line-height: 30px;
+	color: white;
+
 
 }
 ul:link{
 	text-decoration: none !important;
+	list-style-type: none !important;
 	font-size: 20px;
+	line-height: 30px;
+	color: white;
 
 
 }
@@ -38,6 +43,9 @@ ul{
 
 .top{
 	padding-top: 20px;
+}
+.top2{
+	padding-top: 100px;
 }
 
 
