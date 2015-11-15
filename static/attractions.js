@@ -9,7 +9,7 @@ function loadAttractions(numberRestaurants){
         	var restaurant = restaurants[i]; 
           
             var newLink = $('<a>');
-            newLink.addClass('venue-link')
+            newLink.addClass('attraction-link')
             newLink.text(restaurant.name);
             newLink.attr('href', restaurant.web_url);
           
@@ -17,7 +17,7 @@ function loadAttractions(numberRestaurants){
             newLi.append(newLink);
 
           
-            $('#attractions').append(newLi);
+            $('#restaurants').append(newLi);
         }
     });
 }

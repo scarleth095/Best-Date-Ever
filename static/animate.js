@@ -1,7 +1,7 @@
 function fadeHeart(){
-	$("#restaurants").hide();
-	$("#attractions").hide();
-	$("#other").hide();
+	$(".rest-link").hide();
+	$(".attraction-link").hide();
+	$(".hotel-link").hide();
 	$("#pad").hide();
 	$("#here").hide();
 	$("#data").hide();

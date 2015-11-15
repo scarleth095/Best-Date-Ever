@@ -9,7 +9,7 @@ function loadRestaurants(numberRestaurants){
         	var restaurant = restaurants[i]; 
           
             var newLink = $('<a>');
-            newLink.addClass('venue-link')
+            newLink.addClass('rest-link')
             newLink.text(restaurant.name);
             newLink.attr('href', restaurant.web_url);
           

@@ -19,7 +19,23 @@ a{
 	text-decoration: none !important;
 }
 
-a.venue-link{
+a.rest-link{
+
+	list-style-type: none !important;
+	font-size: 30px;
+	line-height: 80px;
+	color: white !important;
+	
+}
+a.attraction-link{
+
+	list-style-type: none !important;
+	font-size: 30px;
+	line-height: 80px;
+	color: white !important;
+	
+}
+a.hotel-link{
 
 	list-style-type: none !important;
 	font-size: 30px;
