@@ -26,11 +26,9 @@ a{
 }
 #header{
 	background-color: #fff1f2;
-	position: relative;
-	height:800px;
+		height:800px;
 	width:100%;
-	display: inline-block;
-	z-index: 1;
+	
 }
 
 .center-text{
@@ -51,9 +49,9 @@ a{
 }
 .ab{
 	
-	z-index: 20;
+	
 	margin-bottom: -50px;
-	position: absolute;
+	position: fixed;
 
 }
 .font-cursive{
