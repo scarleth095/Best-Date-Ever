@@ -20,13 +20,13 @@ function fadeHeart(){
 
 	$("#q1").click(function(){
 		$(".attraction-link").hide();
-		$("hotel-link").hide();
+		$(".hotel-link").hide();
 		$(".rest-link").show();
 		$("#data").show();
 	});
 	$("#q2").click(function(){
 		$(".rest-link").hide();
-		$("hotel-link").hide();
+		$(".hotel-link").hide();
 		$(".attraction-link").show();
 		$("#data").show();
 
@@ -34,7 +34,7 @@ function fadeHeart(){
 	$("#q3").click(function(){
 		$(".rest-link").hide();
 		$(".attraction-link").hide();
-		$("hotel-link").show();
+		$(".hotel-link").show();
 		$("#data").show();
 	});
 
