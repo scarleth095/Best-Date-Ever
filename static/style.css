@@ -28,7 +28,8 @@ a{
 	position: relative;
 	height:800px;
 	width:100%;
-	display: block;
+	display: inline-block;
+	z-index: 1;
 }
 
 .center-text{
@@ -67,7 +68,8 @@ a{
 	min-height: 100vh;
 	background-color: #ff8080;
 	position: relative;
-	display: block;
+	display: inline-block;
+	z-index: 2;
 
 }
 
