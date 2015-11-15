@@ -30,4 +30,4 @@ function loadData(lat,lon){
     loadAttractions(5,lat,lon);
     loadHotels(5,lat,lon);
 
-});
+	}
