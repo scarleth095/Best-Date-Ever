@@ -1,4 +1,4 @@
-function load(numberRestaurants){
+function loadHotels(numberRestaurants){
     var url = 'https://api.tripadvisor.com/api/partner/2.0/location/60745/restaurants?key=df9ce229-07ac-4c58-8af3-619317decc5b&limit=' + numberRestaurants ;
     $.ajax({
         url: url,
@@ -9,7 +9,7 @@ function load(numberRestaurants){
         	var restaurant = restaurants[i]; 
           
             var newLink = $('<a>');
-            newLink.addClass('restaurant-link')
+            newLink.addClass('restaurant-link');
             newLink.text(restaurant.name);
             newLink.attr('href', restaurant.web_url);
           
@@ -17,7 +17,7 @@ function load(numberRestaurants){
             newLi.append(newLink);
 
           
-            $('#restaurants').append(newLi);
+            $('#hotels').append(newLi);
         }
     });
 }
