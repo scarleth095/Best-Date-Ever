@@ -19,8 +19,8 @@ function fadeHeart(){
 
 
 	$("#q1").click(function(){
-		$("#attractions").hide();
-		$("#hotels").show();
+		$("#attractions").show();
+		$("#hotels").hide();
 		$("#restaurants").hide();
 		$("#data").show();
 	});
