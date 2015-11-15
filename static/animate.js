@@ -1,5 +1,7 @@
 function fadeHeart(){
 	$("#restaurants").hide();
+	$("#movies").hide();
+	$("#other").hide();
 	$("#pad").hide();
 	$("#q1").hide();
 	$("#q2").hide();
