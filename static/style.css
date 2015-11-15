@@ -15,7 +15,9 @@ body{
 	font-family: 'Pacifico', cursive;
 }
 
-
+a{
+	text-decoration: none !important;
+}
 ul:link{
 	text-decoration: none !important;
 	list-style-type: none !important;
