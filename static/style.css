@@ -19,7 +19,7 @@ a{
 }
 
 .top{
-	padding-top: 25%;
+	padding-top: 50px;
 }
 
 
@@ -93,6 +93,6 @@ h2 {
 	margin-top: 50px;
 	height: 100px;
 	width: 400px;
-	border-radius: 30%;
+	border-radius: 40%;
 	background-color: #ff8080;
 }
