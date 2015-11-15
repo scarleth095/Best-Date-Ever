@@ -17,6 +17,17 @@ body{
 a{
 	text-decoration: none !important;
 }
+ul:link{
+	text-decoration: none !important;
+	font-size: 20px;
+	line-height: 4px;
+	color: white;
+
+
+}
+ul{
+	list-style-type: none !important;
+}
 
 .top{
 	padding-top: 20px;
