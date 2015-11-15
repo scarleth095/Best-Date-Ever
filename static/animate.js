@@ -1,7 +1,7 @@
 function fadeHeart(){
 	$("#restaurants").hide();
 	$("#attractions").hide();
-	$("#other").hide();
+	$("#hotels").hide();
 	$("#pad").hide();
 	$("#here").hide();
 	$("#data").hide();
@@ -20,13 +20,13 @@ function fadeHeart(){
 
 	$("#q1").click(function(){
 		$("#attractions").hide();
-		$("#other").hide();
+		$("#hotels").hide();
 		$("#restaurants").show();
 		$("#data").show();
 	});
 	$("#q2").click(function(){
 		$("#restaurants").hide();
-		$("#other").hide();
+		$("#hotels").hide();
 		$("#attractions").show();
 		$("#data").show();
 
@@ -34,7 +34,7 @@ function fadeHeart(){
 	$("#q3").click(function(){
 		$("#restaurants").hide();
 		$("#attractions").hide();
-		$("#other").show();
+		$("#hotels").show();
 		$("#data").show();
 	});
 
