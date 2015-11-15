@@ -18,31 +18,19 @@ body{
 a{
 	text-decoration: none !important;
 }
-ul:link{
-	text-decoration: none !important;
-	list-style-type: none !important;
-	font-size: 30px;
-	line-height: 80px;
-	color: white !important;
 
+a.venue-link{
 
-}
-ul:a{
-	text-decoration: none !important;
 	list-style-type: none !important;
 	font-size: 30px;
 	line-height: 80px;
 	color: white !important;
 	
 }
-ul{
-	text-decoration: none !important;
-	list-style-type: none !important;
-	font-size: 30px;
-	line-height: 80px;
-	color: white !important;
+
+
 	
-}
+
 
 .top{
 	padding-top: 20px;

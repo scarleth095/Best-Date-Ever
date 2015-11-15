@@ -1,6 +1,6 @@
 function fadeHeart(){
 	$("#restaurants").hide();
-	$("#movies").hide();
+	$("#attractions").hide();
 	$("#other").hide();
 	$("#pad").hide();
 	$("#here").hide();
@@ -19,11 +19,26 @@ function fadeHeart(){
 
 
 	$("#q1").click(function(){
+		$("#attractions").hide();
+		$("#other").hide();
 		$("#restaurants").show();
 		$("#data").show();
-
-
-
+	});
+	$("#q2").click(function(){
+		$("#restaurants").hide();
+		$("#other").hide();
+		$("#attractions").show();
+		$("#data").show();
 
 	});
+	$("#q3").click(function(){
+		$("#restaurants").hide();
+		$("#attractions").hide();
+		$("#other").show();
+		$("#data").show();
+	});
+
+
+
+
 }

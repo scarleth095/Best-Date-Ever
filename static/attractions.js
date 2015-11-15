@@ -1,5 +1,5 @@
-function loadRestaurants(numberRestaurants){
-    var url = 'https://api.tripadvisor.com/api/partner/2.0/location/60745/restaurants?key=df9ce229-07ac-4c58-8af3-619317decc5b&limit=' + numberRestaurants ;
+function loadAttractions(numberRestaurants){
+    var url = 'https://api.tripadvisor.com/api/partner/2.0/location/60745/attractions?key=df9ce229-07ac-4c58-8af3-619317decc5b&limit=' + numberRestaurants ;
     $.ajax({
         url: url,
         dataType: 'json'
@@ -9,7 +9,7 @@ function loadRestaurants(numberRestaurants){
         	var restaurant = restaurants[i]; 
           
             var newLink = $('<a>');
-            newLink.addClass('restaurant-link')
+            newLink.addClass('venue-link')
             newLink.text(restaurant.name);
             newLink.attr('href', restaurant.web_url);
           
@@ -17,7 +17,7 @@ function loadRestaurants(numberRestaurants){
             newLi.append(newLink);
 
           
-            $('#restaurants').append(newLi);
+            $('#attractions').append(newLi);
         }
     });
 }
