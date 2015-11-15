@@ -19,22 +19,22 @@ function fadeHeart(){
 
 
 	$("#q1").click(function(){
-		$("#attractions").hide();
-		$("#other").hide();
-		$("#restaurants").show();
+		$(".attraction-link").hide();
+		$("hotel-link").hide();
+		$(".rest-link").show();
 		$("#data").show();
 	});
 	$("#q2").click(function(){
-		$("#restaurants").hide();
-		$("#other").hide();
-		$("#attractions").show();
+		$(".rest-link").hide();
+		$("hotel-link").hide();
+		$(".attraction-link").show();
 		$("#data").show();
 
 	});
 	$("#q3").click(function(){
-		$("#restaurants").hide();
-		$("#attractions").hide();
-		$("#other").show();
+		$(".rest-link").hide();
+		$(".attraction-link").hide();
+		$("hotel-link").show();
 		$("#data").show();
 	});
 
