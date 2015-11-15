@@ -20,8 +20,8 @@ function fadeHeart(){
 
 	$("#q1").click(function(){
 		$("#attractions").hide();
-		$("#hotels").hide();
-		$("#restaurants").show();
+		$("#hotels").show();
+		$("#restaurants").hide();
 		$("#data").show();
 	});
 	$("#q2").click(function(){
