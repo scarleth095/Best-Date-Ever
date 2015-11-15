@@ -19,7 +19,7 @@ a{
 }
 
 .top{
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 
@@ -32,9 +32,10 @@ a{
 }
 
 .center-text{
-	margin-top-top: 40px;
-	font-family: 'Pacifico', cursive;
-	margin-bottom-bottom: 40px;
+	
+	font-family: 'Seaweed Script', cursive;
+	font-size: 30px;
+	
 
 }
 
