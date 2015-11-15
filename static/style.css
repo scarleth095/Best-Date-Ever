@@ -99,24 +99,9 @@ h2 {
 }
 
 
-#q1{
-	margin-top: 50px;
-	height: 100px;
-	width: 400px;
-	border-radius: 40%;
-	background-color: #ff8080;
-}
 
-#q2{
-	margin-top: 50px;
-	height: 100px;
-	width: 400px;
-	border-radius: 40%;
-	background-color: #ff8080;
 
-}
-
-#q3{
+.q{
 	margin-top: 50px;
 	height: 100px;
 	width: 400px;
