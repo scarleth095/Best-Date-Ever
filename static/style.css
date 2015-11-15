@@ -31,7 +31,12 @@ a{
 	
 }
 
+.center-text{
+	padding-top: 90px;
+	font-family: 'Pacifico', cursive;
+	padding-bottom: 90px;
 
+}
 
 
 #name-font{
@@ -85,9 +90,9 @@ h2 {
 
 
 #q1{
-
+	margin-top: 50px;
 	height: 200px;
-	width: 400px;
-	border-radius: 25%;
+	width: 300px;
+	border-radius: 30%;
 	background-color: #ff8080;
 }
