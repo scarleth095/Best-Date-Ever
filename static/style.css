@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("./images/worn_dots.png");
+	background-size: ;
+
+}
+.img-circle{
+	border-radius: 50%;
+
+}
+.PAD{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-family: 'Pacifico', cursive;
+}
+a{
+	text-decoration: none !important;
+}
+
+
+
+
+}
+#header{
+	background-color: #f2f2f2;
+	height:100vh;
+	width:100%;
+	
+}
+
+
+
+
+#name-font{
+	color: #20c2c5;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	letter-spacing: 3px;
+
+}
+.ab{
+	
+	z-index: 20;
+	margin-bottom: -50px;
+
+}
+.font-cursive{
+	font-family: 'Pacifico', cursive;
+	z-index: 20;
+}
+
+.pink{
+	color: #ff6666;
+}
+
+
+}
+
+.beat{
+	height: 500px;
+	width:600px;
+	z-index: 2;
+	margin-bottom: -100px;
+	margin-top: -100px;
+}
