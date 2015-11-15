@@ -83,7 +83,9 @@ h2 {
 
 
 #q1{
+	padding-top: 25%;
 	height: 200px;
 	width: 500px;
+	border-radius: 25%;
 	background-color: #ff8080;
 }
