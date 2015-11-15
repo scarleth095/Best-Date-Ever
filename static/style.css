@@ -14,10 +14,8 @@ body{
 	padding-bottom: 1%;
 	font-family: 'Pacifico', cursive;
 }
-a{
-	text-decoration: none !important;
-	list-style-type: none !important;
-}
+
+
 ul:link{
 	text-decoration: none !important;
 	list-style-type: none !important;
@@ -48,7 +46,7 @@ ul{
 	padding-top: 20px;
 }
 .top2{
-	padding-top: 150px;
+	padding-top: 180px;
 }
 
 
