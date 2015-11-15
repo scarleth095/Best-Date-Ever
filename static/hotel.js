@@ -9,12 +9,16 @@ function loadHotels(numberRestaurants){
         	var restaurant = restaurants[i]; 
           
             var newLink = $('<a>');
-            newLink.addClass('restaurant-link');
+            newLink.addClass('venue-link');
             newLink.text(restaurant.name);
             newLink.attr('href', restaurant.web_url);
           
             var newLi = $('<li>');
             newLi.append(newLink);
+
+            var newImage = $('<img>');
+            newImage.attr('src',restaurant.rating_image_url);
+            newLi.append(newImage);
 
           
             $('#hotels').append(newLi);
