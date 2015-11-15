@@ -4,6 +4,7 @@ function fadeHeart(){
 	$("#q1").hide();
 	$("#q2").hide();
 	$("#q3").hide();
+	$("#data").hide();
 
 	$("#start").click(function(){
 	    $("#fade1").fadeOut(2900);
@@ -17,6 +18,7 @@ function fadeHeart(){
 
 	$("#q1").click(function(){
 		$("#restaurants").show();
+		$("#data").show();
 
 
 

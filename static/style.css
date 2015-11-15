@@ -63,7 +63,10 @@ a{
 	color: #ff6666;
 }
 
-
+#data{
+	min-height: 100vh;
+	background-color: #ff8080;
+}
 }
 
 .heart{
