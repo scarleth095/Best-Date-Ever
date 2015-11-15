@@ -4,6 +4,7 @@ function fadeHeart(){
 	$("#other").hide();
 	$("#pad").hide();
 	$("#here").hide();
+	$("#data").hide();
 	
 
 	$("#start").click(function(){
