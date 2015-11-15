@@ -1,5 +1,6 @@
 function fadeHeart(){
 	$("#restaurants").hide();
+	$("#plan").hide();
 	$("#movies").hide();
 	$("#other").hide();
 	$("#pad").hide();
@@ -15,6 +16,7 @@ function fadeHeart(){
 	    	$("#q1").fadeIn();
 	    	$("#q2").fadeIn();
 			$("#q3").fadeIn();
+			$("#plan").fadeIn();
 
     	});
 	});
