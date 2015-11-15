@@ -65,7 +65,8 @@ a{
 }
 
 #data{
-	min-height: 100vh;
+	min-height: 800px;
+	width: 100%;
 	background-color: #ff8080;
 	position: relative;
 	display: inline-block;
