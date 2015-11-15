@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url("./images/worn_dots.png");
+	
 	background-size: ;
 
 }
@@ -23,7 +23,7 @@ a{
 
 }
 #header{
-	background-color: #f2f2f2;
+	
 	height:100vh;
 	width:100%;
 	
@@ -33,7 +33,7 @@ a{
 
 
 #name-font{
-	color: #20c2c5;
+	
 	font-family: 'Pacifico', cursive;
 	font-size: 30px;
 	letter-spacing: 3px;
@@ -43,6 +43,7 @@ a{
 	
 	z-index: 20;
 	margin-bottom: -50px;
+	position: absolute;
 
 }
 .font-cursive{
@@ -57,10 +58,32 @@ a{
 
 }
 
-.beat{
+.heart{
 	height: 500px;
 	width:600px;
 	z-index: 2;
 	margin-bottom: -100px;
 	margin-top: -100px;
+	position: relative;
+}
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+h2 { 
+   position: absolute; 
+   top: 250px; 
+   left: 0; 
+   width: 100%; 
+}
+
+
+#q1{
+	height: 200px;
+	width: 500px;
+	background-color: #ff8080;
 }
